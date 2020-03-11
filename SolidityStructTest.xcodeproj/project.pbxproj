@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCDF0ACD5A177E4AD7DCAEE9 /* Pods_SolidityStructTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C44EEB7470AEFADD582EAE /* Pods_SolidityStructTest.framework */; };
+		E7F403802418725B00E62F7D /* StructSampleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4037F2418725B00E62F7D /* StructSampleBasic.swift */; };
+		E7F40382241878E000E62F7D /* StructSampleWorst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F40381241878E000E62F7D /* StructSampleWorst.swift */; };
+		E7F4038424187A8100E62F7D /* StructSampleFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4038324187A8100E62F7D /* StructSampleFit.swift */; };
+		E7F4038624187D1100E62F7D /* StructSampleUint8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4038524187D1000E62F7D /* StructSampleUint8.swift */; };
+		E7F40388241880E300E62F7D /* StructGasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F40387241880E300E62F7D /* StructGasTest.swift */; };
+		E7F4038A241895EF00E62F7D /* TestSolidtyStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F40389241895EF00E62F7D /* TestSolidtyStruct.swift */; };
+		E7F4038C2418BBAF00E62F7D /* StructGasTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4038B2418BBAF00E62F7D /* StructGasTest2.swift */; };
+		E7F4038E2418C57000E62F7D /* StructGasTest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4038D2418C57000E62F7D /* StructGasTest3.swift */; };
+		E7F818EC24177A3800D40059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F818EB24177A3800D40059 /* AppDelegate.swift */; };
+		E7F818EE24177A3800D40059 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7F818ED24177A3800D40059 /* GameScene.sks */; };
+		E7F818F024177A3800D40059 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7F818EF24177A3800D40059 /* Actions.sks */; };
+		E7F818F224177A3800D40059 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F818F124177A3800D40059 /* GameScene.swift */; };
+		E7F818F424177A3800D40059 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F818F324177A3800D40059 /* GameViewController.swift */; };
+		E7F818F724177A3800D40059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F818F524177A3800D40059 /* Main.storyboard */; };
+		E7F818F924177A3C00D40059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F818F824177A3C00D40059 /* Assets.xcassets */; };
+		E7F818FC24177A3C00D40059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F818FA24177A3C00D40059 /* LaunchScreen.storyboard */; };
+		E7F8190E24177FE300D40059 /* Web3Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8190B24177FE300D40059 /* Web3Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C44EEB7470AEFADD582EAE /* Pods_SolidityStructTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolidityStructTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77949AF8BD755DF9D8A8383 /* Pods-SolidityStructTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolidityStructTest.release.xcconfig"; path = "Target Support Files/Pods-SolidityStructTest/Pods-SolidityStructTest.release.xcconfig"; sourceTree = "<group>"; };
+		E7F4037F2418725B00E62F7D /* StructSampleBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSampleBasic.swift; sourceTree = "<group>"; };
+		E7F40381241878E000E62F7D /* StructSampleWorst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSampleWorst.swift; sourceTree = "<group>"; };
+		E7F4038324187A8100E62F7D /* StructSampleFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSampleFit.swift; sourceTree = "<group>"; };
+		E7F4038524187D1000E62F7D /* StructSampleUint8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSampleUint8.swift; sourceTree = "<group>"; };
+		E7F40387241880E300E62F7D /* StructGasTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructGasTest.swift; sourceTree = "<group>"; };
+		E7F40389241895EF00E62F7D /* TestSolidtyStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSolidtyStruct.swift; sourceTree = "<group>"; };
+		E7F4038B2418BBAF00E62F7D /* StructGasTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructGasTest2.swift; sourceTree = "<group>"; };
+		E7F4038D2418C57000E62F7D /* StructGasTest3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructGasTest3.swift; sourceTree = "<group>"; };
+		E7F818E824177A3800D40059 /* SolidityStructTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolidityStructTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F818EB24177A3800D40059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7F818ED24177A3800D40059 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E7F818EF24177A3800D40059 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E7F818F124177A3800D40059 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E7F818F324177A3800D40059 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E7F818F624177A3800D40059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7F818F824177A3C00D40059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7F818FB24177A3C00D40059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7F818FD24177A3C00D40059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F8190B24177FE300D40059 /* Web3Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3Helper.swift; sourceTree = "<group>"; };
+		F5A2F37E41810C8B5B29C7F8 /* Pods-SolidityStructTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolidityStructTest.debug.xcconfig"; path = "Target Support Files/Pods-SolidityStructTest/Pods-SolidityStructTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F818E524177A3800D40059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDF0ACD5A177E4AD7DCAEE9 /* Pods_SolidityStructTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92290EF9081A449AA49189CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2F37E41810C8B5B29C7F8 /* Pods-SolidityStructTest.debug.xcconfig */,
+				A77949AF8BD755DF9D8A8383 /* Pods-SolidityStructTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5B0B5C949E8DF50E015A5C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C44EEB7470AEFADD582EAE /* Pods_SolidityStructTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F818DF24177A3800D40059 = {
+			isa = PBXGroup;
+			children = (
+				E7F818EA24177A3800D40059 /* SolidityStructTest */,
+				E7F818E924177A3800D40059 /* Products */,
+				92290EF9081A449AA49189CF /* Pods */,
+				D5B0B5C949E8DF50E015A5C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F818E924177A3800D40059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F818E824177A3800D40059 /* SolidityStructTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F818EA24177A3800D40059 /* SolidityStructTest */ = {
+			isa = PBXGroup;
+			children = (
+				E7F40387241880E300E62F7D /* StructGasTest.swift */,
+				E7F4038B2418BBAF00E62F7D /* StructGasTest2.swift */,
+				E7F4038D2418C57000E62F7D /* StructGasTest3.swift */,
+				E7F4037F2418725B00E62F7D /* StructSampleBasic.swift */,
+				E7F40381241878E000E62F7D /* StructSampleWorst.swift */,
+				E7F4038324187A8100E62F7D /* StructSampleFit.swift */,
+				E7F4038524187D1000E62F7D /* StructSampleUint8.swift */,
+				E7F40389241895EF00E62F7D /* TestSolidtyStruct.swift */,
+				E7F8190B24177FE300D40059 /* Web3Helper.swift */,
+				E7F818EB24177A3800D40059 /* AppDelegate.swift */,
+				E7F818ED24177A3800D40059 /* GameScene.sks */,
+				E7F818EF24177A3800D40059 /* Actions.sks */,
+				E7F818F124177A3800D40059 /* GameScene.swift */,
+				E7F818F324177A3800D40059 /* GameViewController.swift */,
+				E7F818F524177A3800D40059 /* Main.storyboard */,
+				E7F818F824177A3C00D40059 /* Assets.xcassets */,
+				E7F818FA24177A3C00D40059 /* LaunchScreen.storyboard */,
+				E7F818FD24177A3C00D40059 /* Info.plist */,
+			);
+			path = SolidityStructTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F818E724177A3800D40059 /* SolidityStructTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F8190024177A3C00D40059 /* Build configuration list for PBXNativeTarget "SolidityStructTest" */;
+			buildPhases = (
+				051D436987829E95C54539EE /* [CP] Check Pods Manifest.lock */,
+				E7F818E424177A3800D40059 /* Sources */,
+				E7F818E524177A3800D40059 /* Frameworks */,
+				E7F818E624177A3800D40059 /* Resources */,
+				D29EE3059B638C10999643BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolidityStructTest;
+			productName = SolidityStructTest;
+			productReference = E7F818E824177A3800D40059 /* SolidityStructTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F818E024177A3800D40059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "飯田白米";
+				TargetAttributes = {
+					E7F818E724177A3800D40059 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E7F818E324177A3800D40059 /* Build configuration list for PBXProject "SolidityStructTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F818DF24177A3800D40059;
+			productRefGroup = E7F818E924177A3800D40059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F818E724177A3800D40059 /* SolidityStructTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F818E624177A3800D40059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F818F724177A3800D40059 /* Main.storyboard in Resources */,
+				E7F818EE24177A3800D40059 /* GameScene.sks in Resources */,
+				E7F818F924177A3C00D40059 /* Assets.xcassets in Resources */,
+				E7F818FC24177A3C00D40059 /* LaunchScreen.storyboard in Resources */,
+				E7F818F024177A3800D40059 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051D436987829E95C54539EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolidityStructTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29EE3059B638C10999643BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolidityStructTest/Pods-SolidityStructTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolidityStructTest/Pods-SolidityStructTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolidityStructTest/Pods-SolidityStructTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F818E424177A3800D40059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F4038424187A8100E62F7D /* StructSampleFit.swift in Sources */,
+				E7F40382241878E000E62F7D /* StructSampleWorst.swift in Sources */,
+				E7F818F224177A3800D40059 /* GameScene.swift in Sources */,
+				E7F8190E24177FE300D40059 /* Web3Helper.swift in Sources */,
+				E7F4038624187D1100E62F7D /* StructSampleUint8.swift in Sources */,
+				E7F818F424177A3800D40059 /* GameViewController.swift in Sources */,
+				E7F818EC24177A3800D40059 /* AppDelegate.swift in Sources */,
+				E7F40388241880E300E62F7D /* StructGasTest.swift in Sources */,
+				E7F403802418725B00E62F7D /* StructSampleBasic.swift in Sources */,
+				E7F4038A241895EF00E62F7D /* TestSolidtyStruct.swift in Sources */,
+				E7F4038E2418C57000E62F7D /* StructGasTest3.swift in Sources */,
+				E7F4038C2418BBAF00E62F7D /* StructGasTest2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7F818F524177A3800D40059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F818F624177A3800D40059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7F818FA24177A3C00D40059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F818FB24177A3C00D40059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7F818FE24177A3C00D40059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7F818FF24177A3C00D40059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F8190124177A3C00D40059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A2F37E41810C8B5B29C7F8 /* Pods-SolidityStructTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolidityStructTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolidityStructTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7F8190224177A3C00D40059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77949AF8BD755DF9D8A8383 /* Pods-SolidityStructTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolidityStructTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolidityStructTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F818E324177A3800D40059 /* Build configuration list for PBXProject "SolidityStructTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F818FE24177A3C00D40059 /* Debug */,
+				E7F818FF24177A3C00D40059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F8190024177A3C00D40059 /* Build configuration list for PBXNativeTarget "SolidityStructTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F8190124177A3C00D40059 /* Debug */,
+				E7F8190224177A3C00D40059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F818E024177A3800D40059 /* Project object */;
+}
